@@ -1,8 +1,13 @@
-{
+{   
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 100000,
     "reporter": "mochawesome",
     "reporterOptions": {
         "overwrite": false,
         "html": false,
         "json": true
-    }
+    },
+    "env": {
+        "url": "https://rahulshettyacademy.com"
+      }
 }
